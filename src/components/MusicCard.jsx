@@ -2,7 +2,7 @@
 import  { useState, useEffect } from 'react';
 
 const price = [
-    { id: 1, name: '[필수] 연출', sub: '- 300,000', selected: false, price: '300000' },
+    { id: 1, name: '[필수] 연출', sub: '- 300,000', selected: true, price: '300000' },
     { id: 2, name: '콘티 제작', sub: '- 200,000', selected: false, price: '200000' },
     { id: 3, name: '스토리보드 제작', sub: '- 400,000', selected: false, price: '400000' },
     { id: 4, name: '[필수] 촬영', sub: '- 800,000', selected: true, price: '800000' },
